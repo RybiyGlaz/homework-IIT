@@ -1,0 +1,36 @@
+mkdir Git (Создаем папку Git)
+cd Git (Входим в папку Git)
+git init (Создание репозитория)
+git status
+git add .
+git status
+git commit -m "One commit"
+Создал файл Report.txt
+dir
+git status
+git add .
+git status
+git commit -m "Two commit" (поместил файл в репозиторий)
+git commit -m "Two commit" --amend
+git show (Смотрю содержание файла)
+git pull
+git checkout -b second (создал новую ветку и перешел на нее)
+Добавляю изменения в отчет
+git status
+git add .
+git status
+git commit -m "Three commit" (поместил файл в репозиторий)
+git commit -m "Three commit" --amend
+git show (Смотрю содержание файла)
+git status
+git add .
+fit status
+git commit -m "Four commit"
+git checkout master (возвращаюсь на главную ветку)
+Вношу новые шаги в отчет
+git status
+git add .
+git status
+git commit -m "Five commit" 
+git commit -m "Five commit" --amend
+git show
